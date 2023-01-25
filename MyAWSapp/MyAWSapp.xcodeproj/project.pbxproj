@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42348181298177A7008B4A6C /* MyAWSappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42348180298177A7008B4A6C /* MyAWSappApp.swift */; };
+		42348183298177A7008B4A6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42348182298177A7008B4A6C /* ContentView.swift */; };
+		42348185298177AA008B4A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42348184298177AA008B4A6C /* Assets.xcassets */; };
+		42348188298177AA008B4A6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42348187298177AA008B4A6C /* Preview Assets.xcassets */; };
+		4234818A298177AA008B4A6C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42348189298177AA008B4A6C /* Persistence.swift */; };
+		4234818D298177AA008B4A6C /* MyAWSapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4234818B298177AA008B4A6C /* MyAWSapp.xcdatamodeld */; };
+		42348198298177AA008B4A6C /* MyAWSappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42348197298177AA008B4A6C /* MyAWSappTests.swift */; };
+		423481A2298177AA008B4A6C /* MyAWSappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423481A1298177AA008B4A6C /* MyAWSappUITests.swift */; };
+		423481A4298177AA008B4A6C /* MyAWSappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423481A3298177AA008B4A6C /* MyAWSappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42348194298177AA008B4A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42348175298177A7008B4A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4234817C298177A7008B4A6C;
+			remoteInfo = MyAWSapp;
+		};
+		4234819E298177AA008B4A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42348175298177A7008B4A6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4234817C298177A7008B4A6C;
+			remoteInfo = MyAWSapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4234817D298177A7008B4A6C /* MyAWSapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAWSapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42348180298177A7008B4A6C /* MyAWSappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAWSappApp.swift; sourceTree = "<group>"; };
+		42348182298177A7008B4A6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42348184298177AA008B4A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42348187298177AA008B4A6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42348189298177AA008B4A6C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4234818C298177AA008B4A6C /* MyAWSapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyAWSapp.xcdatamodel; sourceTree = "<group>"; };
+		4234818E298177AA008B4A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42348193298177AA008B4A6C /* MyAWSappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAWSappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42348197298177AA008B4A6C /* MyAWSappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAWSappTests.swift; sourceTree = "<group>"; };
+		4234819D298177AA008B4A6C /* MyAWSappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAWSappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		423481A1298177AA008B4A6C /* MyAWSappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAWSappUITests.swift; sourceTree = "<group>"; };
+		423481A3298177AA008B4A6C /* MyAWSappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAWSappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4234817A298177A7008B4A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42348190298177AA008B4A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234819A298177AA008B4A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42348174298177A7008B4A6C = {
+			isa = PBXGroup;
+			children = (
+				4234817F298177A7008B4A6C /* MyAWSapp */,
+				42348196298177AA008B4A6C /* MyAWSappTests */,
+				423481A0298177AA008B4A6C /* MyAWSappUITests */,
+				4234817E298177A7008B4A6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4234817E298177A7008B4A6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4234817D298177A7008B4A6C /* MyAWSapp.app */,
+				42348193298177AA008B4A6C /* MyAWSappTests.xctest */,
+				4234819D298177AA008B4A6C /* MyAWSappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4234817F298177A7008B4A6C /* MyAWSapp */ = {
+			isa = PBXGroup;
+			children = (
+				42348180298177A7008B4A6C /* MyAWSappApp.swift */,
+				42348182298177A7008B4A6C /* ContentView.swift */,
+				42348184298177AA008B4A6C /* Assets.xcassets */,
+				42348189298177AA008B4A6C /* Persistence.swift */,
+				4234818E298177AA008B4A6C /* Info.plist */,
+				4234818B298177AA008B4A6C /* MyAWSapp.xcdatamodeld */,
+				42348186298177AA008B4A6C /* Preview Content */,
+			);
+			path = MyAWSapp;
+			sourceTree = "<group>";
+		};
+		42348186298177AA008B4A6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42348187298177AA008B4A6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42348196298177AA008B4A6C /* MyAWSappTests */ = {
+			isa = PBXGroup;
+			children = (
+				42348197298177AA008B4A6C /* MyAWSappTests.swift */,
+			);
+			path = MyAWSappTests;
+			sourceTree = "<group>";
+		};
+		423481A0298177AA008B4A6C /* MyAWSappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				423481A1298177AA008B4A6C /* MyAWSappUITests.swift */,
+				423481A3298177AA008B4A6C /* MyAWSappUITestsLaunchTests.swift */,
+			);
+			path = MyAWSappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4234817C298177A7008B4A6C /* MyAWSapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423481A7298177AA008B4A6C /* Build configuration list for PBXNativeTarget "MyAWSapp" */;
+			buildPhases = (
+				42348179298177A7008B4A6C /* Sources */,
+				4234817A298177A7008B4A6C /* Frameworks */,
+				4234817B298177A7008B4A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAWSapp;
+			productName = MyAWSapp;
+			productReference = 4234817D298177A7008B4A6C /* MyAWSapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42348192298177AA008B4A6C /* MyAWSappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423481AA298177AA008B4A6C /* Build configuration list for PBXNativeTarget "MyAWSappTests" */;
+			buildPhases = (
+				4234818F298177AA008B4A6C /* Sources */,
+				42348190298177AA008B4A6C /* Frameworks */,
+				42348191298177AA008B4A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42348195298177AA008B4A6C /* PBXTargetDependency */,
+			);
+			name = MyAWSappTests;
+			productName = MyAWSappTests;
+			productReference = 42348193298177AA008B4A6C /* MyAWSappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4234819C298177AA008B4A6C /* MyAWSappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423481AD298177AA008B4A6C /* Build configuration list for PBXNativeTarget "MyAWSappUITests" */;
+			buildPhases = (
+				42348199298177AA008B4A6C /* Sources */,
+				4234819A298177AA008B4A6C /* Frameworks */,
+				4234819B298177AA008B4A6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4234819F298177AA008B4A6C /* PBXTargetDependency */,
+			);
+			name = MyAWSappUITests;
+			productName = MyAWSappUITests;
+			productReference = 4234819D298177AA008B4A6C /* MyAWSappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42348175298177A7008B4A6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4234817C298177A7008B4A6C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					42348192298177AA008B4A6C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4234817C298177A7008B4A6C;
+					};
+					4234819C298177AA008B4A6C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4234817C298177A7008B4A6C;
+					};
+				};
+			};
+			buildConfigurationList = 42348178298177A7008B4A6C /* Build configuration list for PBXProject "MyAWSapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42348174298177A7008B4A6C;
+			productRefGroup = 4234817E298177A7008B4A6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4234817C298177A7008B4A6C /* MyAWSapp */,
+				42348192298177AA008B4A6C /* MyAWSappTests */,
+				4234819C298177AA008B4A6C /* MyAWSappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4234817B298177A7008B4A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42348188298177AA008B4A6C /* Preview Assets.xcassets in Resources */,
+				42348185298177AA008B4A6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42348191298177AA008B4A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234819B298177AA008B4A6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42348179298177A7008B4A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4234818A298177AA008B4A6C /* Persistence.swift in Sources */,
+				42348183298177A7008B4A6C /* ContentView.swift in Sources */,
+				42348181298177A7008B4A6C /* MyAWSappApp.swift in Sources */,
+				4234818D298177AA008B4A6C /* MyAWSapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4234818F298177AA008B4A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42348198298177AA008B4A6C /* MyAWSappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42348199298177AA008B4A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423481A4298177AA008B4A6C /* MyAWSappUITestsLaunchTests.swift in Sources */,
+				423481A2298177AA008B4A6C /* MyAWSappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42348195298177AA008B4A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4234817C298177A7008B4A6C /* MyAWSapp */;
+			targetProxy = 42348194298177AA008B4A6C /* PBXContainerItemProxy */;
+		};
+		4234819F298177AA008B4A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4234817C298177A7008B4A6C /* MyAWSapp */;
+			targetProxy = 4234819E298177AA008B4A6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		423481A5298177AA008B4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		423481A6298177AA008B4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423481A8298177AA008B4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyAWSapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogamaya.MyAWSapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423481A9298177AA008B4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyAWSapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogamaya.MyAWSapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		423481AB298177AA008B4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogamaya.MyAWSappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAWSapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyAWSapp";
+			};
+			name = Debug;
+		};
+		423481AC298177AA008B4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogamaya.MyAWSappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAWSapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyAWSapp";
+			};
+			name = Release;
+		};
+		423481AE298177AA008B4A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogamaya.MyAWSappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyAWSapp;
+			};
+			name = Debug;
+		};
+		423481AF298177AA008B4A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogamaya.MyAWSappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyAWSapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42348178298177A7008B4A6C /* Build configuration list for PBXProject "MyAWSapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423481A5298177AA008B4A6C /* Debug */,
+				423481A6298177AA008B4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423481A7298177AA008B4A6C /* Build configuration list for PBXNativeTarget "MyAWSapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423481A8298177AA008B4A6C /* Debug */,
+				423481A9298177AA008B4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423481AA298177AA008B4A6C /* Build configuration list for PBXNativeTarget "MyAWSappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423481AB298177AA008B4A6C /* Debug */,
+				423481AC298177AA008B4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423481AD298177AA008B4A6C /* Build configuration list for PBXNativeTarget "MyAWSappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423481AE298177AA008B4A6C /* Debug */,
+				423481AF298177AA008B4A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4234818B298177AA008B4A6C /* MyAWSapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4234818C298177AA008B4A6C /* MyAWSapp.xcdatamodel */,
+			);
+			currentVersion = 4234818C298177AA008B4A6C /* MyAWSapp.xcdatamodel */;
+			path = MyAWSapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42348175298177A7008B4A6C /* Project object */;
+}
